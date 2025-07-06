@@ -1,5 +1,8 @@
-require("dotenv").config();
-const express = require("express");
+
+// Only use dotenv in development
+if (process.env.NODE_ENV !== 'production') {
+  require("dotenv").config();
+}const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
