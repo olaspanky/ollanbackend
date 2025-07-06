@@ -310,3 +310,5 @@
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:07:22.901Z"}
 {"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:07:22.906Z"}
 {"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:07:23.342Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-06T08:30:23.065Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-06T08:30:25.084Z"}
