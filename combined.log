@@ -338,3 +338,6 @@
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-06T10:24:40.416Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-06T10:24:40.697Z"}
 {"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-06T10:24:40.864Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-06T10:26:02.943Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-06T10:26:03.263Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-06T10:26:03.268Z"}
