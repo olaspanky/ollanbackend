@@ -1,0 +1,312 @@
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T12:00:26.174Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T13:17:57.085Z"}
+{"level":"error","message":"MongoDB connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:237:11)\n    at NativeConnection.openUri (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1071:34)\n    at Mongoose.connect (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/mongoose.js:450:15)\n    at Object.<anonymous> (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/server.js:25:4)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-07-05T13:17:57.090Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T13:18:18.205Z"}
+{"level":"error","message":"MongoDB connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:237:11)\n    at NativeConnection.openUri (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1071:34)\n    at Mongoose.connect (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/mongoose.js:450:15)\n    at Object.<anonymous> (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/server.js:26:4)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-07-05T13:18:18.210Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T13:22:45.754Z"}
+{"level":"error","message":"MongoDB connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:237:11)\n    at NativeConnection.openUri (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1071:34)\n    at Mongoose.connect (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/mongoose.js:450:15)\n    at Object.<anonymous> (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/server.js:26:4)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-07-05T13:22:45.758Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T13:23:41.120Z"}
+{"level":"error","message":"MongoDB connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:237:11)\n    at NativeConnection.openUri (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1071:34)\n    at Mongoose.connect (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/mongoose.js:450:15)\n    at Object.<anonymous> (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/server.js:26:4)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-07-05T13:23:41.124Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T13:25:27.049Z"}
+{"level":"error","message":"MongoDB connection error: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:237:11)\n    at NativeConnection.openUri (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1071:34)\n    at Mongoose.connect (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/mongoose.js:450:15)\n    at Object.<anonymous> (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/server.js:26:4)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-07-05T13:25:27.054Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T13:28:06.641Z"}
+{"level":"error","message":"MongoDB connection error: Invalid scheme, expected connection string to start with \"mongodb://\" or \"mongodb+srv://\"","stack":"MongoParseError: Invalid scheme, expected connection string to start with \"mongodb://\" or \"mongodb+srv://\"\n    at new ConnectionString (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongodb-connection-string-url/lib/index.js:86:19)\n    at parseOptions (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongodb/lib/connection_string.js:203:17)\n    at new MongoClient (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongodb/lib/mongo_client.js:65:61)\n    at NativeConnection.createClient (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:343:14)\n    at NativeConnection.openUri (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1071:34)\n    at Mongoose.connect (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/mongoose.js:450:15)\n    at Object.<anonymous> (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/server.js:27:4)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","timestamp":"2025-07-05T13:28:06.645Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T13:28:57.549Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T13:29:00.080Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:13:5)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:295:15","timestamp":"2025-07-05T13:31:35.168Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T13:31:35.389Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T13:31:35.554Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:13:5)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:295:15","timestamp":"2025-07-05T13:33:10.421Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:13:5)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:295:15","timestamp":"2025-07-05T13:33:10.434Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T13:33:10.587Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T13:33:10.737Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:13:5)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:295:15","timestamp":"2025-07-05T13:35:37.294Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:13:5)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:295:15","timestamp":"2025-07-05T13:35:37.298Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T13:35:37.445Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T13:35:37.591Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:00:38.478Z"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-sgnvqab-shard-00-00.ywktsea.mongodb.net:27017":{"$clusterTime":null,"address":"ac-sgnvqab-shard-00-00.ywktsea.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":103987152,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-sgnvqab-shard-00-01.ywktsea.mongodb.net:27017":{"$clusterTime":null,"address":"ac-sgnvqab-shard-00-01.ywktsea.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":103987325,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-sgnvqab-shard-00-02.ywktsea.mongodb.net:27017":{"$clusterTime":null,"address":"ac-sgnvqab-shard-00-02.ywktsea.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":103987153,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-138hxh-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"level":"error","message":"MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-sgnvqab-shard-00-00.ywktsea.mongodb.net:27017":{"$clusterTime":null,"address":"ac-sgnvqab-shard-00-00.ywktsea.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":103987152,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-sgnvqab-shard-00-01.ywktsea.mongodb.net:27017":{"$clusterTime":null,"address":"ac-sgnvqab-shard-00-01.ywktsea.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":103987325,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-sgnvqab-shard-00-02.ywktsea.mongodb.net:27017":{"$clusterTime":null,"address":"ac-sgnvqab-shard-00-02.ywktsea.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":103987153,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-138hxh-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1165:11)\n    at NativeConnection.openUri (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/connection.js:1096:11)","timestamp":"2025-07-05T14:01:08.566Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:05:05.040Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:05:06.967Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:13:5)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:295:15","timestamp":"2025-07-05T14:05:14.204Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:13:5)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/index.js:295:15","timestamp":"2025-07-05T14:05:14.219Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:05:14.376Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:05:14.521Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:15:46.610Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:15:48.640Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:16:40.780Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:16:42.687Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:16:57.734Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:17:01.049Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:17:02.866Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:17:16.132Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:17:18.633Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:18:23.360Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:18:25.392Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:18:36.566Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:18:38.502Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:18:58.759Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:19:00.585Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:19:15.141Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:19:18.029Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:19:21.665Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:19:23.562Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:19:31.921Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:19:34.081Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:19:48.957Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:19:51.310Z"}
+{"level":"error","message":"File not found after upload: /Users/macintoshhd/Documents/ollanpharmacy/backend/src/Uploads/1751725466713-images (1).jpeg","timestamp":"2025-07-05T14:24:26.720Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:26:14.065Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:26:16.209Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:26:18.358Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:26:20.225Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:26:26.290Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:26:28.431Z"}
+{"level":"error","message":"File not found after upload: /Users/macintoshhd/Documents/ollanpharmacy/backend/src/uploads/1751725598458-images (1).jpeg","timestamp":"2025-07-05T14:26:38.462Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:26:54.772Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:26:57.748Z"}
+{"level":"error","message":"File not found after upload: /Users/macintoshhd/Documents/ollanpharmacy/backend/src/uploads/1751725620699-images (1).jpeg","timestamp":"2025-07-05T14:27:00.702Z"}
+{"level":"error","message":"File not found after upload: /Users/macintoshhd/Documents/ollanpharmacy/backend/src/uploads/1751725776467-images (1).jpeg","timestamp":"2025-07-05T14:29:36.468Z"}
+{"level":"error","message":"File not found after upload: /Users/macintoshhd/Documents/ollanpharmacy/backend/src/uploads/1751725827517-images (1).jpeg","timestamp":"2025-07-05T14:30:27.519Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:31:37.735Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:31:39.701Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:31:52.337Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:31:55.393Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:32:09.348Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:32:11.761Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:32:24.584Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:32:27.323Z"}
+{"level":"info","message":"Product created: Diclofenac by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T14:32:31.632Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:18:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-05T14:32:50.602Z"}
+{"level":"error","message":"Get products error: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.","path":"createdBy","stack":"StrictPopulateError: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.\n    at getModelsMapForPopulate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)\n    at _populatePath (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4468:21)\n    at Function.populate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4435:21)\n    at model.Query._find (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:2433:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async model.Query.exec (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:4604:63)\n    at async exports.getProducts (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/productController.js:56:22)","timestamp":"2025-07-05T14:32:50.618Z"}
+{"level":"error","message":"Get products error: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.","path":"createdBy","stack":"StrictPopulateError: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.\n    at getModelsMapForPopulate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)\n    at _populatePath (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4468:21)\n    at Function.populate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4435:21)\n    at model.Query._find (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:2433:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async model.Query.exec (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:4604:63)\n    at async exports.getProducts (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/productController.js:56:22)","timestamp":"2025-07-05T14:32:50.802Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:18:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-05T14:32:50.811Z"}
+{"level":"error","message":"Get products error: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.","path":"createdBy","stack":"StrictPopulateError: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.\n    at getModelsMapForPopulate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)\n    at _populatePath (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4468:21)\n    at Function.populate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4435:21)\n    at model.Query._find (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:2433:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async model.Query.exec (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:4604:63)\n    at async exports.getProducts (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/productController.js:56:22)","timestamp":"2025-07-05T14:33:15.271Z"}
+{"level":"error","message":"Get cart error: Cart.findOne is not a function","stack":"TypeError: Cart.findOne is not a function\n    at exports.getCart (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/cartController.js:40:29)\n    at Layer.handleRequest (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/router/lib/route.js:157:13)\n    at exports.authMiddleware (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/middleware/auth.js:18:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-05T14:33:15.401Z"}
+{"level":"error","message":"Get products error: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.","path":"createdBy","stack":"StrictPopulateError: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.\n    at getModelsMapForPopulate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)\n    at _populatePath (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4468:21)\n    at Function.populate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4435:21)\n    at model.Query._find (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:2433:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async model.Query.exec (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:4604:63)\n    at async exports.getProducts (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/productController.js:56:22)","timestamp":"2025-07-05T14:33:15.471Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:34:30.222Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:34:32.346Z"}
+{"level":"error","message":"Get products error: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.","path":"createdBy","stack":"StrictPopulateError: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.\n    at getModelsMapForPopulate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)\n    at _populatePath (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4468:21)\n    at Function.populate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4435:21)\n    at model.Query._find (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:2433:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async model.Query.exec (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:4604:63)\n    at async exports.getProducts (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/productController.js:56:22)","timestamp":"2025-07-05T14:34:45.607Z"}
+{"level":"error","message":"Get products error: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.","path":"createdBy","stack":"StrictPopulateError: Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override.\n    at getModelsMapForPopulate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:50:12)\n    at _populatePath (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4468:21)\n    at Function.populate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/model.js:4435:21)\n    at model.Query._find (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:2433:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async model.Query.exec (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/query.js:4604:63)\n    at async exports.getProducts (/Users/macintoshhd/Documents/ollanpharmacy/backend/src/controllers/productController.js:56:22)","timestamp":"2025-07-05T14:34:45.833Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:35:16.933Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:35:19.149Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:35:26.771Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:35:29.046Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:40:01.379Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T14:40:03.444Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:40:03.530Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T14:40:05.203Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:40:18.006Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:40:18.252Z"}
+{"level":"info","message":"Product created: Diclofenac by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T14:42:31.686Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:43:23.329Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:43:23.526Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:45:45.126Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:45:45.302Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:47:01.877Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:47:02.120Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:48:34.350Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:48:34.656Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:50:21.135Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:50:21.438Z"}
+{"level":"info","message":"Added product 686939d72684e134aae23834 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T14:50:27.095Z"}
+{"level":"info","message":"Removed product 686939d72684e134aae23834 from cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T14:50:30.874Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:55:38.059Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T14:55:38.278Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:58:51.878Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T14:58:52.012Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T14:58:52.042Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T14:58:52.354Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:01:32.133Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:02:05.826Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:02:05.979Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:02:05.988Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:02:06.345Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:07:40.278Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:07:40.545Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:07:40.550Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:07:40.949Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:07:47.310Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:07:47.480Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:07:47.662Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:11:20.901Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:11:21.069Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:11:21.086Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T15:23:48.569Z"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.ywktsea.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ywktsea.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ywktsea.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)","syscall":"querySrv","timestamp":"2025-07-05T15:23:48.577Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T15:24:42.969Z"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.ywktsea.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ywktsea.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.ywktsea.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)","syscall":"querySrv","timestamp":"2025-07-05T15:24:42.978Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T15:25:09.065Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T15:25:11.336Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:28:00.431Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:28:00.575Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:28:00.597Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:28:00.856Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T15:32:37.819Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T15:32:40.287Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:32:52.370Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:32:52.532Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:32:52.571Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:34:44.305Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:34:44.469Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:34:44.530Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:35:50.354Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:35:50.663Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:35:51.114Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:38:32.052Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:38:32.227Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:38:32.231Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:44:55.791Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:44:56.052Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:44:56.060Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:44:56.376Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:46:46.839Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:46:46.993Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:46:47.034Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:47:04.161Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:47:04.468Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:47:04.471Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:47:58.507Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:47:58.842Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:47:58.846Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:48:18.511Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:48:18.690Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:48:18.713Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T15:50:09.503Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T15:50:11.568Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:50:36.026Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:50:36.181Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:50:36.252Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T15:57:15.429Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T15:57:18.197Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:57:47.832Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:57:48.056Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:57:48.219Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:59:45.501Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T15:59:45.709Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T15:59:45.868Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:06:01.549Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:06:01.819Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:06:02.129Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:10:32.329Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:10:34.847Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:11:11.568Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:11:13.835Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:11:27.719Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:11:29.825Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:12:49.014Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:12:51.479Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:12:55.602Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:12:57.830Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:13:45.100Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:14:05.327Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:14:07.739Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:14:54.043Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:14:54.210Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:14:54.214Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:14:54.566Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:15:59.431Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:16:01.577Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:22:35.067Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:22:37.554Z"}
+{"level":"info","message":"Product created: Diclofenac by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:22:43.476Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:23:05.477Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:23:05.629Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:23:05.638Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:23:06.021Z"}
+{"level":"info","message":"Product created: Diclofenac by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:27:58.573Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:28:10.861Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:28:11.022Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:28:11.032Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:28:11.496Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:33:12.689Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:33:12.901Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:33:13.044Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:34:05.368Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:34:05.582Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:34:05.588Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:34:06.393Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:37:39.486Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:37:39.652Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:37:39.658Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:38:01.202Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:38:01.803Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:38:02.013Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:41:51.226Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:41:51.487Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:41:51.499Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:42:01.215Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:42:01.524Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:42:01.667Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:44:23.252Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:44:23.405Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:44:23.481Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:44:33.178Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:44:33.586Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:44:34.000Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:46:28.595Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:46:28.764Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:46:28.933Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:48:06.913Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:48:07.199Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:48:07.396Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:50:24.251Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:50:24.531Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:50:24.882Z"}
+{"level":"info","message":"Created uploads directory: /Users/macintoshhd/Documents/ollanpharmacy/backend/uploads","timestamp":"2025-07-05T16:51:16.761Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-07-05T16:51:17.168Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-05T16:51:20.666Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:51:32.512Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:51:32.811Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:51:33.019Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:52:19.946Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T16:52:20.093Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T16:52:20.344Z"}
+{"level":"info","message":"Product created: cartef 40/480 by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:02:26.052Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:02:28.369Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:02:28.504Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:02:28.513Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:02:28.814Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:36:58.863Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:36:59.046Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:36:59.052Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:36:59.473Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:42:33.205Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:42:33.354Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:42:33.465Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:42:33.929Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:43:24.754Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:43:24.935Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:43:24.984Z"}
+{"level":"info","message":"Added product 68695aa1f1c64e344f51345a to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:45:08.996Z"}
+{"level":"info","message":"Added product 6869528e3b45ef157c241a56 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:45:28.411Z"}
+{"level":"info","message":"Removed product 68695aa1f1c64e344f51345a from cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:46:09.166Z"}
+{"level":"info","message":"Removed product 68695aa1f1c64e344f51345a from cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:46:09.769Z"}
+{"level":"info","message":"Removed product 6869528e3b45ef157c241a56 from cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:46:10.395Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:46:19.857Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:46:20.126Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:46:20.130Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:46:20.848Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:48:41.538Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:48:41.690Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:48:41.876Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:49:31.227Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T17:49:31.439Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T17:49:31.751Z"}
+{"level":"info","message":"Product created: Babatem 80/480 by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:00:47.661Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:00:51.588Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:00:51.859Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:00:51.862Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:00:52.288Z"}
+{"level":"info","message":"Product created: Merother by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:03:22.417Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:03:26.343Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:03:26.613Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:03:26.617Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:03:27.399Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:03:52.677Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:03:53.029Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:03:53.220Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:07:22.724Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-05T18:07:22.901Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:07:22.906Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-05T18:07:23.342Z"}
