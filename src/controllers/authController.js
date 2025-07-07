@@ -36,7 +36,11 @@ exports.signup = async (req, res) => {
     const user = new User({ email, password, name });
     await user.save();
 
-    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
+    const token = jwt.sign(
+      { id: user._id, email: user.email, name: user.name, role: user.role },
+      process.env.JWT_SECRET,
+      { expiresIn: '1d' }
+    );
     res.status(201).json({ token, user: { id: user._id, email, name, role: user.role } });
   } catch (error) {
     res.status(500).json({ message: 'Server error' });
@@ -55,13 +59,18 @@ exports.signin = async (req, res) => {
       return res.status(401).json({ message: 'Invalid credentials' });
     }
 
-    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
+    const token = jwt.sign(
+      { id: user._id, email: user.email, name: user.name, role: user.role },
+      process.env.JWT_SECRET,
+      { expiresIn: '1d' }
+    );
     res.json({ token, user: { id: user._id, email, name: user.name, role: user.role } });
   } catch (error) {
     res.status(500).json({ message: 'Server error' });
   }
 };
 
+// Other endpoints (forgotPassword, resetPassword, updateProfile) remain unchanged
 exports.forgotPassword = async (req, res) => {
   const { email } = req.body;
 
