@@ -16,9 +16,6 @@ exports.createOrder = async (req, res) => {
       !customerInfo.name ||
       !customerInfo.email ||
       !customerInfo.phone ||
-      !customerInfo.address ||
-      !customerInfo.city ||
-      !customerInfo.state ||
       !customerInfo.deliveryOption ||
       !customerInfo.pickupLocation ||
       !customerInfo.estimatedDelivery ||
