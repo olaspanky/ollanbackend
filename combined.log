@@ -512,3 +512,46 @@
 {"level":"info","message":"Added product 6869684ff1c64e344f513497 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:55:45.911Z"}
 {"level":"info","message":"Added product 686ab2e280d2c930d292bb14 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:55:49.529Z"}
 {"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:56:26.772Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:10:18.940Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:10:19.267Z"}
+{"level":"info","message":"Added product 686968eaf1c64e344f5134a0 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:10:23.209Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:10:42.922Z"}
+{"level":"error","message":"PAYSTACK_SECRET_KEY is not set in environment variables","timestamp":"2025-07-07T13:10:54.491Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:12:40.064Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:12:40.391Z"}
+{"level":"info","message":"Added product 686968eaf1c64e344f5134a0 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:12:43.797Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:13:02.287Z"}
+{"level":"info","message":"Payment verified for order: 686bc7dd101df6a79024e251, reference: OLLAN_686bc7dd101df6a79024e251_709705834","timestamp":"2025-07-07T13:13:13.040Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:17:20.288Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:17:20.752Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:19:12.725Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:19:13.045Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:22:34.037Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:22:34.343Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:24:06.659Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:24:06.943Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:15.878Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:16.284Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:32.873Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:33.181Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:37.286Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:37.686Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:58.886Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:25:59.393Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:26:38.477Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:26:38.817Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:29:06.262Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:29:06.638Z"}
+{"level":"info","message":"Added product 686968eaf1c64e344f5134a0 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:29:12.328Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:29:31.900Z"}
+{"level":"info","message":"Payment verified for order: 686bcbbb101df6a79024e29e, reference: OLLAN_686bcbbb101df6a79024e29e_402576176","timestamp":"2025-07-07T13:29:42.600Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:29:50.934Z"}
+{"level":"info","message":"Orders retrieved for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T13:29:51.328Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-07T13:32:23.644Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-07T13:32:24.213Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:37:31.204Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:37:31.680Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:39:05.432Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:39:05.779Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:44:02.608Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T13:44:05.545Z"}

@@ -109,36 +109,73 @@ exports.uploadPrescription = async (req, res) => {
 
 exports.verifyPayment = async (req, res) => {
   const { reference, orderId } = req.body;
+
+  // Validate inputs
+  if (!reference || !orderId) {
+    logger.error(`Missing required fields: reference=${reference}, orderId=${orderId}`);
+    return res.status(400).json({ message: "Reference and orderId are required" });
+  }
+
   try {
+    // Verify Paystack secret key exists
+    if (!process.env.PAYSTACK_SECRET_KEY) {
+      logger.error("PAYSTACK_SECRET_KEY is not set in environment variables");
+      return res.status(500).json({ message: "Server configuration error: Missing Paystack secret key" });
+    }
+
+    // Verify Paystack transaction
     const response = await axios.get(`https://api.paystack.co/transaction/verify/${reference}`, {
       headers: { Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}` },
     });
-    if (response.data.data.status === 'success') {
-      const order = await Order.findByIdAndUpdate(
-        orderId,
-        { status: 'processing', paymentReference: reference },
-        { new: true }
-      );
-      res.json({ message: 'Payment verified', order });
-    } else {
-      res.status(400).json({ message: 'Payment verification failed' });
+
+    if (response.data.status !== true || response.data.data.status !== "success") {
+      logger.error(`Payment verification failed for reference: ${reference}, response: ${JSON.stringify(response.data)}`);
+      return res.status(400).json({ message: "Payment verification failed" });
     }
+
+    // Verify order exists
+    const order = await Order.findById(orderId);
+    if (!order) {
+      logger.error(`Order not found for orderId: ${orderId}`);
+      return res.status(400).json({ message: "Order not found" });
+    }
+
+    // Update order
+    const updatedOrder = await Order.findByIdAndUpdate(
+      orderId,
+      { status: "processing", paymentReference: reference },
+      { new: true }
+    );
+
+    logger.info(`Payment verified for order: ${orderId}, reference: ${reference}`);
+    res.json({ message: "Payment verified", order: updatedOrder });
   } catch (error) {
-    logger.error('Payment verification error:', error);
-    res.status(500).json({ message: 'Server error' });
+    logger.error(`Payment verification error: ${error.message}`, {
+      reference,
+      orderId,
+      stack: error.stack,
+    });
+    res.status(500).json({ message: "Server error", error: error.message });
   }
 };
 
 exports.getUserOrders = async (req, res) => {
-  const userId = req.user._id;
+  const userEmail = req.user.email; // Assuming req.user.email is set by auth middleware
 
   try {
-    const orders = await Order.find({ userId }).populate('items.productId');
-    logger.info(`Orders retrieved for user: ${userId}`);
+    // Validate email
+    if (!userEmail) {
+      logger.error("User email not provided in request");
+      return res.status(400).json({ message: "User email is required" });
+    }
+
+    // Find orders where customerInfo.email matches the user's email
+    const orders = await Order.find({ "customerInfo.email": userEmail }).populate("items.productId");
+    logger.info(`Orders retrieved for user email: ${userEmail}`);
     res.json(orders);
   } catch (error) {
-    logger.error('Get user orders error:', error);
-    res.status(500).json({ message: 'Server error' });
+    logger.error(`Get user orders error for email ${userEmail}: ${error.message}`, { stack: error.stack });
+    res.status(500).json({ message: "Server error", error: error.message });
   }
 };
 
