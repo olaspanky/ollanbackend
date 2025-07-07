@@ -1,23 +1,41 @@
 const Order = require('../models/Order');
 const Cart = require('../models/Cart');
 const Product = require('../models/Product');
-const { getIO } = require('../utils/socket');
 const logger = require('../config/logger');
 const axios = require('axios');
 
 exports.createOrder = async (req, res) => {
-  const userId = req.user._id;
-  const { customerInfo, prescriptionUrl } = req.body;
-  const io = getIO();
+  const user = req.user; // Assuming req.user is set by auth middleware
+  const { customerInfo, deliveryFee, prescriptionUrl } = req.body;
 
   try {
-    const cart = await Cart.findOne({ userId }).populate('items.productId');
-    if (!cart || cart.items.length === 0) {
-      return res.status(400).json({ message: 'Cart is empty' });
+    // Validate required fields
+    if (
+      !user ||
+      !customerInfo ||
+      !customerInfo.name ||
+      !customerInfo.email ||
+      !customerInfo.phone ||
+      !customerInfo.address ||
+      !customerInfo.city ||
+      !customerInfo.state ||
+      !customerInfo.deliveryOption ||
+      !customerInfo.pickupLocation ||
+      !customerInfo.estimatedDelivery ||
+      deliveryFee === undefined
+    ) {
+      return res.status(400).json({ message: "All required fields must be provided" });
     }
 
+    // Fetch cart
+    const cart = await Cart.findOne({ userId: user._id }).populate("items.productId");
+    if (!cart || cart.items.length === 0) {
+      return res.status(400).json({ message: "Cart is empty" });
+    }
+
+    // Calculate total and prepare items
     let total = 0;
-    const items = cart.items.map(item => {
+    const items = cart.items.map((item) => {
       total += item.productId.price * item.quantity;
       return {
         productId: item.productId._id,
@@ -26,33 +44,53 @@ exports.createOrder = async (req, res) => {
       };
     });
 
+    // Validate stock
     for (const item of cart.items) {
       const product = await Product.findById(item.productId);
-      if (product.stock < item.quantity) {
-        return res.status(400).json({ message: `Insufficient stock for ${product.name}` });
+      if (!product || product.stock < item.quantity) {
+        return res.status(400).json({ message: `Insufficient stock for ${product?.name || "item"}` });
       }
       product.stock -= item.quantity;
       await product.save();
     }
 
+    // Validate delivery fee
+    const expectedDeliveryFee = total > 0
+      ? customerInfo.deliveryOption === "express"
+        ? 1500
+        : customerInfo.deliveryOption === "timeframe" && total < 5000
+          ? 500
+          : 0
+      : 0;
+
+    if (deliveryFee !== expectedDeliveryFee) {
+      return res.status(400).json({ message: "Invalid delivery fee" });
+    }
+
+    // Calculate total amount
+    const totalAmount = total + deliveryFee;
+
+    // Create order
     const order = new Order({
-      userId,
+      user: user._id, // Use user instead of userId
       items,
-      total,
       customerInfo,
+      deliveryFee,
       prescriptionUrl,
+      totalAmount, // Use totalAmount instead of total
       paymentReference: `OLLAN_${Date.now()}_${Math.floor(Math.random() * 1000000)}`,
     });
-    await order.save();
 
-    await Cart.findOneAndDelete({ userId });
+    const savedOrder = await order.save();
 
-    io.to('admin').emit('newOrder', order);
-    logger.info(`Order created for user: ${userId}`);
-    res.json({ message: 'Order created', order });
+    // Clear cart
+    await Cart.findOneAndDelete({ userId: user._id });
+
+    logger.info(`Order created for user: ${user._id}`);
+    res.status(201).json({ message: "Order created", order: savedOrder });
   } catch (error) {
-    logger.error('Create order error:', error);
-    res.status(500).json({ message: 'Server error' });
+    logger.error("Create order error:", error);
+    res.status(500).json({ message: "Server error", error: error.message });
   }
 };
 

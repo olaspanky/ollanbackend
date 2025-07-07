@@ -461,3 +461,54 @@
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:11:08.815Z"}
 {"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:11:08.957Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:11:09.113Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:16:27.458Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:16:27.600Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:17:05.323Z"}
+{"level":"info","message":"Product updated: 6869528e3b45ef157c241a56","timestamp":"2025-07-07T10:17:15.228Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:17:15.664Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:17:25.008Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:17:25.149Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:21:59.972Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:22:00.120Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:22:00.274Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:22:00.583Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:27:38.949Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:27:39.189Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:27:39.279Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:31:10.231Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:31:10.417Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:31:10.586Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:31:32.444Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:31:32.746Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:31:32.881Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:31:39.725Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:31:39.965Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:31:40.104Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:34:50.398Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:34:51.107Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:34:51.185Z"}
+{"_message":"Order validation failed","errors":{"customerInfo.estimatedDelivery":{"kind":"required","message":"Path `customerInfo.estimatedDelivery` is required.","name":"ValidatorError","path":"customerInfo.estimatedDelivery","properties":{"message":"Path `customerInfo.estimatedDelivery` is required.","path":"customerInfo.estimatedDelivery","type":"required"}},"deliveryFee":{"kind":"required","message":"Path `deliveryFee` is required.","name":"ValidatorError","path":"deliveryFee","properties":{"message":"Path `deliveryFee` is required.","path":"deliveryFee","type":"required"}},"totalAmount":{"kind":"required","message":"Path `totalAmount` is required.","name":"ValidatorError","path":"totalAmount","properties":{"message":"Path `totalAmount` is required.","path":"totalAmount","type":"required"}},"user":{"kind":"required","message":"Path `user` is required.","name":"ValidatorError","path":"user","properties":{"message":"Path `user` is required.","path":"user","type":"required"}}},"level":"error","message":"Create order error: Order validation failed: totalAmount: Path `totalAmount` is required., deliveryFee: Path `deliveryFee` is required., customerInfo.estimatedDelivery: Path `customerInfo.estimatedDelivery` is required., user: Path `user` is required.","stack":"ValidationError: Order validation failed: totalAmount: Path `totalAmount` is required., deliveryFee: Path `deliveryFee` is required., customerInfo.estimatedDelivery: Path `customerInfo.estimatedDelivery` is required., user: Path `user` is required.\n    at Document.invalidate (/Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/document.js:3352:32)\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/document.js:3113:17\n    at /Users/macintoshhd/Documents/ollanpharmacy/backend/node_modules/mongoose/lib/schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-07-07T10:42:02.055Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:44:03.658Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:44:04.110Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:44:04.297Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:48:48.266Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:48:48.515Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:48:48.597Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:49:02.281Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:49:02.454Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:49:02.606Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:49:31.651Z"}
+{"level":"info","message":"Cart retrieved for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:49:32.096Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:49:32.127Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:50:01.232Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:50:53.873Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:50:54.182Z"}
+{"level":"info","message":"Added product 686968eaf1c64e344f5134a0 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:51:30.418Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:51:53.373Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:52:06.261Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:52:06.586Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:55:41.880Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-07T10:55:42.286Z"}
+{"level":"info","message":"Added product 6869684ff1c64e344f513497 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:55:45.911Z"}
+{"level":"info","message":"Added product 686ab2e280d2c930d292bb14 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:55:49.529Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-07T10:56:26.772Z"}

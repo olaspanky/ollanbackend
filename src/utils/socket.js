@@ -1,7 +1,3 @@
-const socketIo = require("socket.io");
-
-let io;
-
 module.exports = {
   init: (server) => {
     if (io) {
@@ -10,19 +6,17 @@ module.exports = {
     }
     io = socketIo(server, {
       cors: {
-        origin: "http://localhost:3000", // Match frontend origin
+        origin: "http://localhost:3000",
         methods: ["GET", "POST"],
         credentials: true,
       },
     });
-
     io.on("connection", (socket) => {
       if (socket.handshake.query.role === "admin") {
         socket.join("admin");
         console.log("Admin connected to Socket.io");
       }
     });
-
     return io;
   },
   getIO: () => {
