@@ -23,6 +23,7 @@ const signinSchema = Joi.object({
   password: Joi.string().required(),
 });
 
+// In exports.signup
 exports.signup = async (req, res) => {
   const { error } = signupSchema.validate(req.body);
   if (error) return res.status(400).json({ message: error.details[0].message });
@@ -47,6 +48,7 @@ exports.signup = async (req, res) => {
   }
 };
 
+// In exports.signin
 exports.signin = async (req, res) => {
   const { error } = signinSchema.validate(req.body);
   if (error) return res.status(400).json({ message: error.details[0].message });

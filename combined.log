@@ -566,3 +566,5 @@
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-07T16:49:07.164Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-07T16:54:22.206Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-07T17:01:39.140Z"}
+{"level":"info","message":"Image uploaded to Cloudinary: products/plrljh9lzhznqopahucq","timestamp":"2025-07-08T08:04:27.547Z"}
+{"level":"info","message":"Product created: Lumareal by user 686928a3b02de4aa004be2ea","timestamp":"2025-07-08T08:04:27.730Z"}
