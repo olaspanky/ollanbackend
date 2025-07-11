@@ -594,3 +594,72 @@
 {"$__":{"activePaths":{"paths":{"_id":"init","productId":"init","quantity":"init"},"states":{"default":{},"init":{"_id":true,"productId":true,"quantity":true}}},"populated":{"productId":{"options":{"_childDocs":[{"__v":0,"_id":"686d4f9f3ffdc0021609f6c8","category":"Anti Malaria","createdAt":"2025-07-08T17:04:31.682Z","createdBy":"686928a3b02de4aa004be2ea","description":"Great drug tst","image":"https://res.cloudinary.com/dfz5jgfxo/image/upload/v1751994271/products/fsjjrknmhzefmngxawwb.jpg","imagePublicId":"products/fsjjrknmhzefmngxawwb","name":"Malacide","price":2500,"stock":19,"updatedAt":"2025-07-10T00:24:58.173Z"}],"_docs":{"686cd6c77c98eb9432c0bab1":["686cd684120fc151ebd79e52","686d4f9f3ffdc0021609f6c8"]},"_queryProjection":null,"path":"items.productId"},"value":"686cd684120fc151ebd79e52"}}},"$__parent":{"__v":21,"_id":"686cd6c77c98eb9432c0bab1","items":[{"_id":"686cd6c77c98eb9432c0bab2","productId":null,"quantity":2},{"_id":"686f0770ce9afc3355ec5f0a","productId":{"__v":0,"_id":"686d4f9f3ffdc0021609f6c8","category":"Anti Malaria","createdAt":"2025-07-08T17:04:31.682Z","createdBy":"686928a3b02de4aa004be2ea","description":"Great drug tst","image":"https://res.cloudinary.com/dfz5jgfxo/image/upload/v1751994271/products/fsjjrknmhzefmngxawwb.jpg","imagePublicId":"products/fsjjrknmhzefmngxawwb","name":"Malacide","price":2500,"stock":19,"updatedAt":"2025-07-10T00:24:58.173Z"},"quantity":1}],"userId":"686928a3b02de4aa004be2ea"},"$isNew":false,"__index":0,"__parentArray":[{"_id":"686cd6c77c98eb9432c0bab2","productId":null,"quantity":2},{"_id":"686f0770ce9afc3355ec5f0a","productId":{"__v":0,"_id":"686d4f9f3ffdc0021609f6c8","category":"Anti Malaria","createdAt":"2025-07-08T17:04:31.682Z","createdBy":"686928a3b02de4aa004be2ea","description":"Great drug tst","image":"https://res.cloudinary.com/dfz5jgfxo/image/upload/v1751994271/products/fsjjrknmhzefmngxawwb.jpg","imagePublicId":"products/fsjjrknmhzefmngxawwb","name":"Malacide","price":2500,"stock":19,"updatedAt":"2025-07-10T00:24:58.173Z"},"quantity":1}],"_doc":{"_id":"686cd6c77c98eb9432c0bab2","productId":null,"quantity":2},"level":"warn","message":"Removing invalid cart item for user 686928a3b02de4aa004be2ea:","timestamp":"2025-07-10T00:41:26.125Z"}
 {"level":"info","message":"Cleaned up cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-10T00:41:26.316Z"}
 {"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-10T00:41:27.244Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T12:22:24.478Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T12:22:24.836Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T12:37:55.793Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T12:37:56.145Z"}
+{"level":"info","message":"Orders retrieved for seller: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:38:08.917Z"}
+{"level":"info","message":"Orders retrieved for admin: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:42:27.822Z"}
+{"level":"info","message":"Orders retrieved for admin: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:43:09.769Z"}
+{"level":"error","message":"Update order status error: Cannot read properties of undefined (reading 'toString')","timestamp":"2025-07-11T12:43:15.399Z"}
+{"level":"info","message":"Orders retrieved for admin: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:44:06.174Z"}
+{"level":"info","message":"Order 686ba6c80801a5c9b1d4d671 rejected by admin 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:46:58.106Z"}
+{"level":"info","message":"Orders retrieved for admin: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:47:51.749Z"}
+{"level":"info","message":"Orders retrieved for admin: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:48:15.751Z"}
+{"level":"info","message":"Orders retrieved for admin: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:49:16.976Z"}
+{"level":"info","message":"Order 686ba6580801a5c9b1d4d659 accepted by admin 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:53:35.813Z"}
+{"level":"info","message":"Order 686ba7da148b3e8d9f3e1557 accepted by admin 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:53:38.768Z"}
+{"level":"info","message":"Orders retrieved for admin: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T12:54:30.680Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T13:40:32.034Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T13:40:32.437Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T13:41:02.938Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T13:56:55.341Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T13:58:58.258Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:02:14.198Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:02:56.698Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:04:55.626Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:06:56.248Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:07:42.063Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:07:42.531Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T14:07:58.727Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:08:39.296Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:08:39.683Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:08:46.396Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:10:47.672Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:12:48.893Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:13:08.559Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:16:26.818Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:17:07.549Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:19:08.403Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:21:04.702Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T14:22:19.538Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T14:22:19.971Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:22:20.118Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:22:21.458Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T14:22:57.929Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:22:58.901Z"}
+{"level":"info","message":"Order 686f0c36d54d38449ae25c8c accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:23:10.168Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T14:28:07.882Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:28:08.465Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T14:28:29.866Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:28:30.587Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:30:34.699Z"}
+{"level":"info","message":"Order 686fbbf98dc34614c3b483fb accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:32:27.936Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:32:29.536Z"}
+{"level":"info","message":"Order 686fbbf98dc34614c3b483fb assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:32:37.562Z"}
+{"level":"info","message":"Order 686f09d3b5f10f069d5d7caa accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:32:51.398Z"}
+{"level":"info","message":"Order 686f0503de0da3764be8fbf9 accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:33:20.058Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:33:29.479Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:33:29.838Z"}
+{"level":"info","message":"Added product 686968eaf1c64e344f5134a0 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:33:33.818Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:33:46.783Z"}
+{"level":"info","message":"Payment verified for order: 687120c9b3b2c5a58ab3840b, reference: OLLAN_687120c9b3b2c5a58ab3840b_51064109","timestamp":"2025-07-11T14:33:59.278Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T14:34:09.927Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:34:12.594Z"}
+{"level":"info","message":"Order 686f085ace9afc3355ec5f24 accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:35:01.843Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T14:36:11.068Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:37:44.017Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T14:37:44.374Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T14:37:55.685Z"}
+{"level":"info","message":"Delivery status updated to en_route for order 686fbbf98dc34614c3b483fb by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T14:37:59.281Z"}
+{"level":"info","message":"Delivery status updated to delivered for order 686fbbf98dc34614c3b483fb by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T14:38:01.965Z"}

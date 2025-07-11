@@ -4,7 +4,7 @@ const logger = require('../config/logger');
 exports.updateUserRole = async (req, res) => {
   const { userId, role } = req.body;
 
-  if (!userId || !['customer', 'admin'].includes(role)) {
+  if (!userId || !['customer', 'admin', 'seller', 'rider'].includes(role)) {
     return res.status(400).json({ message: 'Invalid user ID or role' });
   }
 
@@ -24,7 +24,7 @@ exports.updateUserRole = async (req, res) => {
   }
 };
 
-// Existing functions (e.g., updateProfile)
+// Existing function (unchanged)
 exports.updateProfile = async (req, res) => {
   const userId = req.user._id;
   const { email, name } = req.body;
