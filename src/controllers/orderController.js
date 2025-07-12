@@ -508,7 +508,8 @@ exports.updateOrderStatus = async (req, res) => {
       return res.status(403).json({ message: 'Unauthorized: Only admins can modify orders' });
     }
 
-    if (order.status !== 'pending') {
+    // Allow status updates from 'processing' instead of 'pending'
+    if (order.status !== 'processing') {
       return res.status(400).json({ message: 'Order status cannot be modified' });
     }
 

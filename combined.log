@@ -663,3 +663,230 @@
 {"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T14:37:55.685Z"}
 {"level":"info","message":"Delivery status updated to en_route for order 686fbbf98dc34614c3b483fb by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T14:37:59.281Z"}
 {"level":"info","message":"Delivery status updated to delivered for order 686fbbf98dc34614c3b483fb by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T14:38:01.965Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:05:19.784Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:05:20.629Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:05:29.415Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:05:29.779Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:05:43.007Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:06:41.986Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:06:42.528Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:09:12.740Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:18:36.539Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:18:39.654Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:19:20.812Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:19:21.221Z"}
+{"level":"info","message":"Added product 686cdc1b7c980bf321a3fd66 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:19:26.562Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:19:40.061Z"}
+{"level":"info","message":"Payment verified for order: 687147ab2fc5b41e56f80898, reference: OLLAN_687147ab2fc5b41e56f80898_961728821","timestamp":"2025-07-11T17:20:11.008Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:20:30.000Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:20:32.330Z"}
+{"level":"info","message":"Order 687147ab2fc5b41e56f80898 assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:21:36.933Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:22:18.882Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:22:29.925Z"}
+{"level":"info","message":"Order 687147ab2fc5b41e56f80898 assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:22:39.853Z"}
+{"level":"info","message":"Order 687147ab2fc5b41e56f80898 assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:22:40.531Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:23:13.788Z"}
+{"level":"info","message":"Order 686f0503de0da3764be8fbf9 assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:23:26.416Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:23:41.600Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:24:32.426Z"}
+{"level":"info","message":"Delivery status updated to en_route for order 686f0503de0da3764be8fbf9 by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:24:45.488Z"}
+{"level":"info","message":"Delivery status updated to delivered for order 686f0503de0da3764be8fbf9 by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:25:01.391Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:25:10.173Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:26:31.181Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:26:38.373Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:26:39.205Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:27:07.563Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:27:11.969Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:27:12.480Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:27:19.834Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:27:22.225Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:29:13.168Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:29:13.849Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:31:23.894Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:33:07.396Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:33:09.899Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:35:08.613Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:55.936Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:56.513Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:36:56.892Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:57.069Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:57.458Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:57.777Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:36:58.112Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:58.298Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:58.636Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:58.997Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:36:59.137Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:59.393Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:36:59.778Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:00.359Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:00.987Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:01.237Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:01.441Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:01.799Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:01.994Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:02.136Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:02.455Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:02.863Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:03.090Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:03.181Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:03.677Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:04.024Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:04.554Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:04.789Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:05.175Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:05.457Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:05.547Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:05.901Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:06.215Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:06.236Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:07.047Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:07.445Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:07.788Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:07.844Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:08.302Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:09.083Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:09.450Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:09.864Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:10.130Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:10.302Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:10.803Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:11.272Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:11.438Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:11.835Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:12.232Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:12.614Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:13.005Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:13.408Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:13.837Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:14.585Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:14.599Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:15.051Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:15.395Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:16.131Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:16.144Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:17.482Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:17.578Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:17.754Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:18.365Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:18.570Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:18.729Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:18.832Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:19.077Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:19.684Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:19.851Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:19.874Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:20.128Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:20.478Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:20.483Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:20.623Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:20.876Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:20.883Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:21.209Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:21.225Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:21.449Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:21.786Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:21.996Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:22.053Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:22.164Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:22.294Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:22.805Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:22.864Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:23.184Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:23.191Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:23.554Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:23.561Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:23.847Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:24.017Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:24.043Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:24.173Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:24.290Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:24.371Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:24.571Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:24.706Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:24.786Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:24.792Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:24.952Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:25.066Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:25.235Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:25.265Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:25.434Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:25.467Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:25.484Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:25.597Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:25.639Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:25.856Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:25.977Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:26.146Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:26.297Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:26.374Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:26.533Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:26.790Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:26.814Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:26.816Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:27.032Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:27.105Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:27.153Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:27.239Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:27.305Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:27.469Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:27.638Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:27.857Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:28.237Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:28.278Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:28.293Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:28.682Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:28.795Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:28.815Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:29.117Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:37:37.536Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:37:37.900Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:39:38.715Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:41:38.492Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:43:38.934Z"}
+{"level":"info","message":"Order 687147ab2fc5b41e56f80898 accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:44:12.594Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:44:27.875Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:44:28.342Z"}
+{"level":"info","message":"Order 687120c9b3b2c5a58ab3840b accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:44:34.137Z"}
+{"level":"info","message":"Order 687120c9b3b2c5a58ab3840b assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:44:45.937Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:44:55.192Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:44:56.282Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:45:43.084Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:45:43.863Z"}
+{"level":"info","message":"Delivery status updated to delivered for order 687120c9b3b2c5a58ab3840b by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:45:47.508Z"}
+{"level":"info","message":"Delivery status updated to delivered for order 687147ab2fc5b41e56f80898 by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:45:49.687Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T17:45:57.186Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:46:12.035Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T17:46:12.516Z"}
+{"level":"info","message":"Added product 686cdc1b7c980bf321a3fd66 to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:46:18.709Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:46:30.577Z"}
+{"level":"info","message":"Payment verified for order: 68714df6799b8e12c8e16662, reference: OLLAN_68714df6799b8e12c8e16662_437786607","timestamp":"2025-07-11T17:46:46.927Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T17:46:58.907Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:47:01.369Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:48:59.624Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:51:01.103Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:53:00.711Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:55:01.055Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:57:00.684Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:58:59.758Z"}
+{"level":"info","message":"Order 687147ab2fc5b41e56f80898 assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:59:02.065Z"}
+{"level":"info","message":"Order 687147ab2fc5b41e56f80898 assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T17:59:02.577Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T17:59:16.451Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T18:00:59.580Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T18:03:02.454Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T18:05:01.161Z"}
+{"level":"info","message":"Order 68714df6799b8e12c8e16662 accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T18:06:49.808Z"}
+{"level":"info","message":"Order 68714df6799b8e12c8e16662 assigned to rider 686c10314cf5977f54b121cd by admin 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T18:06:57.386Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T18:07:00.163Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T18:07:00.448Z"}
+{"level":"info","message":"Delivery status updated to en_route for order 68714df6799b8e12c8e16662 by rider 686c10314cf5977f54b121cd","timestamp":"2025-07-11T18:07:09.425Z"}
+{"level":"info","message":"Orders retrieved for rider: 686c10314cf5977f54b121cd","timestamp":"2025-07-11T18:07:24.423Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-07-11T18:07:31.174Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-07-11T18:07:31.782Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T18:07:35.297Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T18:07:36.131Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T18:07:47.737Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T18:07:55.374Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-11T18:07:56.377Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T18:08:01.362Z"}
+{"level":"info","message":"Orders retrieved for user email: olaj39767@gmail.com","timestamp":"2025-07-11T18:08:02.028Z"}
