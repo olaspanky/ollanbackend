@@ -1327,3 +1327,5 @@
 {"level":"info","message":"New image uploaded to Cloudinary: products/ngzolgbsjqq7fmyeejq9","timestamp":"2025-07-14T10:54:18.842Z"}
 {"level":"info","message":"Deleted old Cloudinary image: products/qstivajzuhynzxxoxv4c","timestamp":"2025-07-14T10:54:19.480Z"}
 {"level":"info","message":"Product updated: 6874d8ce6e271c7be30dc696","timestamp":"2025-07-14T10:54:19.481Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-14T11:00:48.646Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-14T11:00:49.018Z"}

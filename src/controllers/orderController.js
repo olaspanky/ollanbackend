@@ -32,9 +32,6 @@ exports.createOrder = async (req, res) => {
       !customerInfo.name ||
       !customerInfo.email ||
       !customerInfo.phone ||
-      !customerInfo.deliveryOption ||
-      !customerInfo.pickupLocation ||
-      !customerInfo.estimatedDelivery ||
       deliveryFee === undefined
     ) {
       return res.status(400).json({ message: 'All required fields must be provided' });
