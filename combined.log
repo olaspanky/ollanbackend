@@ -1322,3 +1322,8 @@
 {"level":"info","message":"Email sent to olakareemomobolarinwa@gmail.com","messageId":"<6aa5548d-6559-6e29-e73d-00a06248f73c@ollanpharmacy.ng>","timestamp":"2025-07-13T18:28:48.409Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-13T18:31:38.901Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-13T18:31:39.313Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-14T10:51:57.570Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-14T10:51:58.340Z"}
+{"level":"info","message":"New image uploaded to Cloudinary: products/ngzolgbsjqq7fmyeejq9","timestamp":"2025-07-14T10:54:18.842Z"}
+{"level":"info","message":"Deleted old Cloudinary image: products/qstivajzuhynzxxoxv4c","timestamp":"2025-07-14T10:54:19.480Z"}
+{"level":"info","message":"Product updated: 6874d8ce6e271c7be30dc696","timestamp":"2025-07-14T10:54:19.481Z"}

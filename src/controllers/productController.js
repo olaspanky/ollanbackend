@@ -1,5 +1,3 @@
-
-
 const Product = require("../models/Product");
 const logger = require("../config/logger");
 const { cloudinary, uploadToCloudinary } = require("../config/cloudinary");
@@ -73,6 +71,7 @@ exports.updateProduct = async (req, res) => {
   const { id } = req.params;
   const { name, description, price, stock, category } = req.body;
   let uploadedImage = null;
+  let oldImagePublicId = null;
   
   try {
     const existingProduct = await Product.findById(id);
@@ -80,43 +79,67 @@ exports.updateProduct = async (req, res) => {
       return res.status(404).json({ message: "Product not found" });
     }
 
+    // Store old image public ID for later cleanup
+    oldImagePublicId = existingProduct.imagePublicId;
+
     // Upload new image to Cloudinary if provided
     if (req.file) {
       try {
+        console.log("Uploading new image to Cloudinary...");
         uploadedImage = await uploadToCloudinary(req.file.buffer);
         logger.info(`New image uploaded to Cloudinary: ${uploadedImage.public_id}`);
-        
-        // Delete old image from Cloudinary if it exists
-        if (existingProduct.imagePublicId) {
-          try {
-            await cloudinary.uploader.destroy(existingProduct.imagePublicId);
-            logger.info(`Deleted old Cloudinary image: ${existingProduct.imagePublicId}`);
-          } catch (error) {
-            logger.error("Error deleting old Cloudinary image:", error);
-          }
-        }
       } catch (uploadError) {
         logger.error("Cloudinary upload error:", uploadError);
         return res.status(500).json({ message: "Image upload failed" });
       }
     }
 
+    // Prepare update data
+    const updateData = {
+      name: name || existingProduct.name,
+      description: description !== undefined ? description : existingProduct.description,
+      price: price !== undefined && price !== '' ? parseFloat(price) : existingProduct.price,
+      stock: stock !== undefined && stock !== '' ? parseInt(stock) : existingProduct.stock,
+      category: category || existingProduct.category,
+    };
+
+    // Add image data if new image was uploaded
+    if (uploadedImage) {
+      updateData.image = uploadedImage.secure_url;
+      updateData.imagePublicId = uploadedImage.public_id;
+    }
+
+    console.log("Update data:", updateData); // Debug log
+
     const updatedProduct = await Product.findByIdAndUpdate(
       id,
-      {
-        name,
-        description,
-       price: price !== undefined && price !== '' ? parseFloat(price) : existingProduct.price,
-stock: stock !== undefined && stock !== '' ? parseInt(stock) : existingProduct.stock,
-
-        category,
-        ...(uploadedImage && { 
-          image: uploadedImage.secure_url,
-          imagePublicId: uploadedImage.public_id 
-        }),
-      },
-      { new: true }
+      updateData,
+      { new: true, runValidators: true }
     );
+
+    if (!updatedProduct) {
+      // If update failed and we uploaded a new image, clean it up
+      if (uploadedImage && uploadedImage.public_id) {
+        try {
+          await cloudinary.uploader.destroy(uploadedImage.public_id);
+          logger.info(`Cleaned up new image after failed update: ${uploadedImage.public_id}`);
+        } catch (cleanupError) {
+          logger.error("Error cleaning up new image:", cleanupError);
+        }
+      }
+      return res.status(404).json({ message: "Product not found" });
+    }
+
+    // Only delete old image if update was successful AND a new image was uploaded
+    if (uploadedImage && oldImagePublicId) {
+      try {
+        await cloudinary.uploader.destroy(oldImagePublicId);
+        logger.info(`Deleted old Cloudinary image: ${oldImagePublicId}`);
+      } catch (error) {
+        logger.error("Error deleting old Cloudinary image:", error);
+        // Don't fail the request if old image deletion fails
+      }
+    }
 
     logger.info(`Product updated: ${id}`);
     res.json({ message: "Product updated", product: updatedProduct });
