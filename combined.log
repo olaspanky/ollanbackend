@@ -1329,3 +1329,6 @@
 {"level":"info","message":"Product updated: 6874d8ce6e271c7be30dc696","timestamp":"2025-07-14T10:54:19.481Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-14T11:00:48.646Z"}
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-14T11:00:49.018Z"}
+{"level":"info","message":"Products retrieved","timestamp":"2025-07-14T14:48:34.472Z"}
+{"level":"info","message":"Added product 68695aa1f1c64e344f51345a to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-14T14:48:41.344Z"}
+{"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-14T14:50:19.943Z"}
