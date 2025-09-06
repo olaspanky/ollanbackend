@@ -20,6 +20,10 @@ const orderSchema = new mongoose.Schema({
   deliveryFee: { type: Number },
   prescriptionUrl: { type: String },
   totalAmount: { type: Number, required: true },
+   paymentDetails: {
+    type: String,
+    default: '',
+  },
   paymentReference: { type: String, required: true },
   status: {
     type: String,
