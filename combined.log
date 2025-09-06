@@ -1332,3 +1332,51 @@
 {"level":"info","message":"Products retrieved","timestamp":"2025-07-14T14:48:34.472Z"}
 {"level":"info","message":"Added product 68695aa1f1c64e344f51345a to cart for user 686928a3b02de4aa004be2ea","timestamp":"2025-07-14T14:48:41.344Z"}
 {"level":"info","message":"Order created for user: 686928a3b02de4aa004be2ea","timestamp":"2025-07-14T14:50:19.943Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-09-06T16:07:58.476Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:07:58.917Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:09:58.930Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-09-06T16:11:11.709Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:11:12.002Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:13:14.928Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-09-06T16:14:30.945Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-09-06T16:14:30.954Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:14:31.292Z"}
+{"level":"info","message":"Email sent to olaj39767@gmail.com","messageId":"<80d4f01c-59b7-3055-f6af-ae56baa2e257@ollanpharmacy.ng>","timestamp":"2025-09-06T16:14:51.679Z"}
+{"level":"info","message":"Payment manually verified for order: 68bc58713f2656cc61724acd by admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:14:51.679Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:15:05.411Z"}
+{"level":"error","message":"Order 68bc58713f2656cc61724acd is not in pending status: processing","timestamp":"2025-09-06T16:15:15.759Z"}
+{"level":"info","message":"Email sent to olaj39767@gmail.com","messageId":"<e1e09491-d3a1-8f34-dc67-0cb85ae4e5d8@ollanpharmacy.ng>","timestamp":"2025-09-06T16:15:33.366Z"}
+{"level":"info","message":"Order 68bc58713f2656cc61724acd accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:15:33.366Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:15:34.094Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:16:32.046Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:18:31.879Z"}
+{"level":"info","message":"Email sent to olakareemmuhammad@gmail.com","messageId":"<577e49f5-a83c-223e-0dc8-49198e4da240@ollanpharmacy.ng>","timestamp":"2025-09-06T16:19:30.943Z"}
+{"level":"info","message":"Payment manually verified for order: 6894ffac27cf5138000a3de0 by admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:19:30.944Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-09-06T16:19:48.250Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:19:48.568Z"}
+{"level":"info","message":"Riders retrieved","timestamp":"2025-09-06T16:22:08.744Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:22:09.127Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:24:10.043Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:26:10.319Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:29:57.311Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:30:09.739Z"}
+{"level":"info","message":"Email sent to olakareemmuhammad@gmail.com","messageId":"<26331db2-f9d4-c80a-2f8e-bceba514c1f5@ollanpharmacy.ng>","timestamp":"2025-09-06T16:30:16.693Z"}
+{"level":"info","message":"Order 6894ffac27cf5138000a3de0 accepted by admin 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:30:16.693Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:30:19.971Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:32:10.289Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:34:10.024Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:36:36.030Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:38:32.223Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:40:36.026Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:42:36.118Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:44:36.265Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:46:45.058Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:48:18.045Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:50:39.688Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:52:47.715Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:54:54.414Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:56:52.678Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T16:58:39.665Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T17:00:36.411Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T17:02:36.247Z"}
+{"level":"info","message":"Orders retrieved for admin: 686928a3b02de4aa004be2ea","timestamp":"2025-09-06T17:04:36.817Z"}
