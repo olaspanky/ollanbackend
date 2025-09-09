@@ -16,6 +16,7 @@ const orderSchema = new mongoose.Schema({
     deliveryOption: { type: String },
     pickupLocation: { type: String},
     estimatedDelivery: { type: String },
+    transactionNumber: { type: String },
   },
   deliveryFee: { type: Number },
   prescriptionUrl: { type: String },
