@@ -9,11 +9,22 @@ const logger = require('../config/logger');
 
 // Handle preflight OPTIONS request
 router.options('/stream', (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', 'https://www.ollanpharmacy.ng');
+  const allowedOrigins = [
+    'https://www.ollanpharmacy.ng',
+    'http://localhost:3000',
+  ];
+
+  const origin = req.headers.origin;
+  if (origin && allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  }
+
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Authorization, Content-Type');
+  res.setHeader('Access-Control-Allow-Credentials', 'true'); // if you need cookies/headers
   res.status(204).end();
 });
+
 
 router.get('/stream', authMiddleware, roleMiddleware(['admin']), async (req, res) => {
   res.setHeader('Content-Type', 'text/event-stream');
