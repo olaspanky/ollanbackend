@@ -7,13 +7,22 @@ const roleMiddleware = require('../middleware/roleMiddleware');
 const redisClient = require('../redis');
 const logger = require('../config/logger');
 
+// Handle preflight OPTIONS request
+router.options('/stream', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', 'https://www.ollanpharmacy.ng');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Authorization, Content-Type');
+  res.status(204).end();
+});
+
 router.get('/stream', authMiddleware, roleMiddleware(['admin']), async (req, res) => {
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
   res.setHeader('X-Accel-Buffering', 'no');
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
-  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Allow-Origin', 'https://www.ollanpharmacy.ng');
+  // Remove Access-Control-Allow-Credentials unless using cookies
+  // res.setHeader('Access-Control-Allow-Credentials', 'true');
 
   const channel = 'orders:updates';
   const heartbeatInterval = setInterval(() => {
@@ -22,14 +31,11 @@ router.get('/stream', authMiddleware, roleMiddleware(['admin']), async (req, res
 
   let subscriber;
   try {
-    // Check Redis connection status
     if (redisClient.status !== 'ready') {
       await redisClient.connect();
     }
 
-    // Use a duplicate client for Pub/Sub
     subscriber = redisClient.duplicate();
-
     subscriber.on('connect', () => {
       logger.info('Redis subscriber connected successfully');
     });
@@ -44,7 +50,6 @@ router.get('/stream', authMiddleware, roleMiddleware(['admin']), async (req, res
       res.write(`data: ${message}\n\n`);
     });
 
-    // Handle client disconnect
     req.on('close', async () => {
       try {
         if (subscriber) {
@@ -59,7 +64,6 @@ router.get('/stream', authMiddleware, roleMiddleware(['admin']), async (req, res
       res.end();
     });
 
-    // Handle socket errors
     req.socket.on('error', (err) => {
       logger.error(`SSE socket error: ${err.message}`);
       clearInterval(heartbeatInterval);
