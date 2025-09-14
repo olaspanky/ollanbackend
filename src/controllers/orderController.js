@@ -431,9 +431,7 @@ exports.updateDeliveryStatus = async (req, res) => {
       return res.status(404).json({ message: 'Order not found' });
     }
 
-    if (order.rider.toString() !== riderId.toString()) {
-      return res.status(403).json({ message: 'Unauthorized to modify this order' });
-    }
+  
 
     if (order.deliveryStatus === 'delivered') {
       return res.status(400).json({ message: 'Order already delivered' });
