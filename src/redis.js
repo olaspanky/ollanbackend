@@ -1,58 +1,121 @@
-const Redis = require('ioredis');
-const logger = require('./config/logger');
+// Create a new file: src/events/orderEvents.js
+const EventEmitter = require('events');
+const logger = require('../config/logger');
 
-const redisConfig = {
-  url: process.env.REDIS_URL || 'redis://localhost:6379',
-  retryStrategy(times) {
-    const delay = Math.min(times * 50, 2000); // Exponential backoff, max 2 seconds
-    logger.info(`Retrying Redis connection attempt ${times}, delay: ${delay}ms`);
-    return delay;
-  },
-  maxRetriesPerRequest: 3,
-  connectTimeout: 10000,
-  enableOfflineQueue: true,
-  lazyConnect: true,
-  // Redis Cloud free plan has a 30-connection limit
-  maxConnections: 30,
-};
+class OrderEventManager extends EventEmitter {
+  constructor() {
+    super();
+    this.activeConnections = new Map();
+    this.setMaxListeners(100); // Increase max listeners
+  }
 
-const redisClient = new Redis(redisConfig.url, {
-  ...redisConfig,
-  // Explicitly disable TLS since rediss:// doesn't work
-  tls: undefined,
-});
+  // Add SSE connection
+  addConnection(connectionId, res, userId) {
+    this.activeConnections.set(connectionId, {
+      res,
+      userId,
+      connectedAt: new Date()
+    });
+    
+    logger.info(`SSE connection added: ${connectionId} for user: ${userId}`);
+  }
 
-redisClient.on('connect', () => {
-  logger.info('Redis connected successfully');
-});
+  // Remove SSE connection
+  removeConnection(connectionId) {
+    const connection = this.activeConnections.get(connectionId);
+    if (connection) {
+      this.activeConnections.delete(connectionId);
+      logger.info(`SSE connection removed: ${connectionId}`);
+    }
+  }
 
-redisClient.on('ready', () => {
-  logger.info('Redis is ready');
-});
+  // Broadcast order update to all admin connections
+  broadcastOrderUpdate(orderData) {
+    const message = JSON.stringify({
+      type: 'order_update',
+      data: orderData,
+      timestamp: new Date().toISOString()
+    });
 
-redisClient.on('error', (error) => {
-  logger.error(`Redis error: ${error.message}`);
-});
+    this.activeConnections.forEach((connection, connectionId) => {
+      try {
+        if (!connection.res.destroyed) {
+          connection.res.write(`data: ${message}\n\n`);
+        } else {
+          // Clean up destroyed connections
+          this.removeConnection(connectionId);
+        }
+      } catch (error) {
+        logger.error(`Error broadcasting to connection ${connectionId}: ${error.message}`);
+        this.removeConnection(connectionId);
+      }
+    });
 
-redisClient.on('close', () => {
-  logger.warn('Redis connection closed');
-});
+    logger.info(`Order update broadcasted to ${this.activeConnections.size} connections`);
+  }
 
-redisClient.on('end', () => {
-  logger.warn('Redis connection ended');
-});
+  // Broadcast specific event
+  broadcastEvent(eventType, data) {
+    const message = JSON.stringify({
+      type: eventType,
+      data,
+      timestamp: new Date().toISOString()
+    });
 
-// Connect explicitly
-redisClient.connect().catch((err) => {
-  logger.error(`Failed to connect to Redis: ${err.message}`);
-});
+    this.activeConnections.forEach((connection, connectionId) => {
+      try {
+        if (!connection.res.destroyed) {
+          connection.res.write(`data: ${message}\n\n`);
+        } else {
+          this.removeConnection(connectionId);
+        }
+      } catch (error) {
+        logger.error(`Error broadcasting event ${eventType} to ${connectionId}: ${error.message}`);
+        this.removeConnection(connectionId);
+      }
+    });
+  }
+
+  // Get connection stats
+  getStats() {
+    return {
+      activeConnections: this.activeConnections.size,
+      connections: Array.from(this.activeConnections.entries()).map(([id, conn]) => ({
+        id,
+        userId: conn.userId,
+        connectedAt: conn.connectedAt
+      }))
+    };
+  }
+
+  // Cleanup all connections
+  cleanup() {
+    this.activeConnections.forEach((connection, connectionId) => {
+      try {
+        if (!connection.res.destroyed) {
+          connection.res.end();
+        }
+      } catch (error) {
+        logger.error(`Error cleaning up connection ${connectionId}: ${error.message}`);
+      }
+    });
+    this.activeConnections.clear();
+    this.removeAllListeners();
+  }
+}
+
+// Create singleton instance
+const orderEventManager = new OrderEventManager();
 
 // Graceful shutdown
 process.on('SIGINT', () => {
-  redisClient.quit(() => {
-    logger.info('Redis connection closed gracefully');
-    process.exit(0);
-  });
+  logger.info('Cleaning up order event manager...');
+  orderEventManager.cleanup();
 });
 
-module.exports = redisClient;
+process.on('SIGTERM', () => {
+  logger.info('Cleaning up order event manager...');
+  orderEventManager.cleanup();
+});
+
+module.exports = orderEventManager;

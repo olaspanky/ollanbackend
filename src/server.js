@@ -21,8 +21,20 @@ const connectDB = async () => {
   }
 };
 
+// CORS Configuration - Allow specific origins only
+const corsOptions = {
+  origin: [
+    'https://www.ollanpharmacy.ng',
+    'http://localhost:3000'
+  ],
+  credentials: true, // Allow credentials (cookies, authorization headers, etc.)
+  optionsSuccessStatus: 200, // For legacy browser support
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+};
+
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
