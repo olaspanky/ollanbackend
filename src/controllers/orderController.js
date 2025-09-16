@@ -691,7 +691,7 @@ exports.shareOrderTracking = async (req, res) => {
     }
 
     // Generate tracking URL
-    const trackingUrl = `${process.env.FRONTEND_URL}/track?orderId=${order._id}`;
+    const trackingUrl = `${process.env.FRONTEND_URL}/pages/track?orderId=${order._id}`;
     
     // Prepare email content
     const emailContent = `
