@@ -579,3 +579,156 @@ exports.dropOrderCollection = async (req, res) => {
     res.status(500).json({ message: 'Server error', error: error.message });
   }
 };
+
+// Add this endpoint to your existing controller file
+exports.trackOrder = async (req, res) => {
+  const { orderId, transactionNumber } = req.query;
+
+  try {
+    // Validate input
+    if (!orderId && !transactionNumber) {
+      logger.error('Missing required query parameter: orderId or transactionNumber');
+      return res.status(400).json({ message: 'Order ID or transaction number is required' });
+    }
+
+    // Find order by orderId or transactionNumber
+    const query = orderId
+      ? { _id: orderId }
+      : { transactionNumber: transactionNumber };
+
+    const order = await Order.findOne(query)
+      .populate('items.productId', 'name price') // Only populate necessary product fields
+      .populate('rider', 'name'); // Only populate rider name
+
+    if (!order) {
+      logger.error(`Order not found for query: ${JSON.stringify(query)}`);
+      return res.status(404).json({ message: 'Order not found' });
+    }
+
+    // Create status history (assuming status changes are tracked in an array)
+    // You may need to modify your Order model to store status history
+    const statusHistory = [
+      {
+        status: 'pending',
+        timestamp: order.createdAt,
+        description: 'Order created and awaiting verification'
+      },
+      ...(order.status === 'processing' ? [{
+        status: 'processing',
+        timestamp: order.updatedAt, // Use updatedAt or add specific timestamps in your model
+        description: 'Payment verified, order being processed'
+      }] : []),
+      ...(order.status === 'accepted' ? [{
+        status: 'accepted',
+        timestamp: order.updatedAt,
+        description: 'Order accepted by admin'
+      }] : []),
+      ...(order.status === 'rejected' ? [{
+        status: 'rejected',
+        timestamp: order.updatedAt,
+        description: 'Order rejected by admin'
+      }] : []),
+      ...(order.deliveryStatus === 'en_route' ? [{
+        status: 'en_route',
+        timestamp: order.updatedAt,
+        description: `Order en route to delivery${order.rider ? ` by ${order.rider.name}` : ''}`
+      }] : []),
+      ...(order.deliveryStatus === 'delivered' ? [{
+        status: 'delivered',
+        timestamp: order.updatedAt,
+        description: 'Order delivered to customer'
+      }] : [])
+    ];
+
+    // Prepare response with limited, non-sensitive information
+    const response = {
+      orderId: order._id.toString().slice(-6),
+      transactionNumber: order.transactionNumber,
+      status: order.status,
+      deliveryStatus: order.deliveryStatus || 'not_assigned',
+      riderName: order.rider ? order.rider.name : null,
+      items: order.items.map(item => ({
+        productName: item.productId.name,
+        quantity: item.quantity,
+        price: item.price
+      })),
+      totalAmount: order.totalAmount,
+      deliveryFee: order.deliveryFee,
+      createdAt: order.createdAt,
+      statusHistory
+    };
+
+    logger.info(`Order tracked successfully: ${order._id}`);
+    res.status(200).json(response);
+  } catch (error) {
+    logger.error(`Track order error: ${error.message}`, { query: { orderId, transactionNumber } });
+    res.status(500).json({ message: 'Server error', error: error.message });
+  }
+};
+
+exports.shareOrderTracking = async (req, res) => {
+  const { orderId } = req.body;
+  const adminId = req.user._id;
+
+  try {
+    // Validate input
+    if (!orderId) {
+      logger.error(`Missing required field: orderId=${orderId}`);
+      return res.status(400).json({ message: 'Order ID is required' });
+    }
+
+    // Check admin role
+    if (req.user.role !== 'admin') {
+      logger.error(`Unauthorized tracking link share attempt by user: ${adminId}`);
+      return res.status(403).json({ message: 'Unauthorized: Only admins can share tracking links' });
+    }
+
+    // Find the order
+    const order = await Order.findById(orderId).populate('user', 'email name');
+    if (!order) {
+      logger.error(`Order not found for orderId: ${orderId}`);
+      return res.status(404).json({ message: 'Order not found' });
+    }
+
+    // Generate tracking URL
+    const trackingUrl = `${process.env.FRONTEND_URL}/track?orderId=${order._id}`;
+    
+    // Prepare email content
+    const emailContent = `
+      Dear ${order.customerInfo.name},
+      
+      Your order #${order._id.toString().slice(-6)} can now be tracked online.
+      Click the link below to view the status of your order:
+      
+      ${trackingUrl}
+      
+      Thank you for shopping with Ollan Pharmacy!
+      
+      Best regards,
+      Ollan Pharmacy Team
+    `;
+
+    // Send email to user
+    await emailService.sendTextEmail(
+      order.customerInfo.email,
+      `Track Your Order #${order._id.toString().slice(-6)}`,
+      emailContent
+    );
+
+    // Broadcast event for tracking link shared (optional, for admin visibility)
+    orderEventManager.broadcastOrderUpdate({
+      type: 'tracking_shared',
+      order: order,
+      message: `Tracking link for order #${order._id.toString().slice(-6)} shared with ${order.customerInfo.name}`
+    });
+
+    // Invalidate admin orders cache (optional, if tracking status affects admin view)
+    invalidateAdminOrdersCache();
+
+    logger.info(`Tracking link shared for order ${orderId} by admin ${adminId}`);
+    res.status(200).json({ message: 'Tracking link sent to customer', trackingUrl });
+  } catch (error) {
+    logger.error(`Share tracking link error for order ${orderId}: ${error.message}`);
+    res.status(500).json({ message: 'Server error', error: error.message });
+  }
+};

@@ -18,5 +18,8 @@ router.post('/update-delivery-status', authMiddleware, roleMiddleware(['rider'])
 router.post('/assign-order', authMiddleware, roleMiddleware(['admin']), orderController.assignOrder);
 router.get('/riders', authMiddleware, roleMiddleware(['admin']), orderController.getRiders);
 router.post('/send-prescription', orderController.sendPrescription);
+router.get('/track', orderController.trackOrder); // Unprotected tracking endpoint
+router.post('/share-tracking', authMiddleware, orderController.shareOrderTracking); // Protected endpoint for admins
+
 
 module.exports = router;
